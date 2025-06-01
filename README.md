@@ -9,16 +9,16 @@ Le projet est structuré en deux axes principaux utilisant des données LiDAR is
 ### 1. Classification des éléments du paysage
 * **A. Chargement des Données**
 * **B. Analyse du Dataset :** Identification de différentes classes :  
-   - * **Classe 1** : Sol nu  
-   - * **Classe 2** : Végétation basse  
-   - * **Classe 5** : Bâtiment  
-   - * **Classes 6-7** : Bruit (éliminées du dataset)  
+   - **Classe 1** : Sol nu  
+   - **Classe 2** : Végétation basse  
+   - **Classe 5** : Bâtiment  
+   - **Classes 6-7** : Bruit (éliminées du dataset)  
 * **C. Préparation du Dataset**
 * **D. Classification :** Implémentation et évaluation de plusieurs modèles de classification supervisée :  
-   - * **Random Forest Classifier**  
-   - * **LightGBM Classifier** (GBM = Gradient Boosting Model)  
-   - * **MLP Classifier** (réseau de neurones multi-couches)  
-   - * **Voting Classifier** (Hard & Soft) : combinaison des modèles ci-dessus  
+   - **Random Forest Classifier**  
+   - **LightGBM Classifier** (GBM = Gradient Boosting Model)  
+   - **MLP Classifier** (réseau de neurones multi-couches)  
+   - **Voting Classifier** (Hard & Soft) : combinaison des modèles ci-dessus  
 * **E. Bilan des Méthodes de Classification**
 
 
