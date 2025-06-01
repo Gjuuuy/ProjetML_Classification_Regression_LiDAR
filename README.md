@@ -33,8 +33,8 @@ Prédiction de la variable continue **Z (hauteur)** à partir des autres caract�
 ```
 ├── notebooks/
 │   ├── LIDAR_classification.ipynb    # Partie 1 : Classification des classes paysagères
-│   ├── LIDAR_regression.ipynb        # Partie 2 : Régression pour prédiction de hauteur
-│   └── environment.yml               # # Environnement Conda contenant toutes les dépendances nécessaires à l'exécution
+│   └── LIDAR_regression.ipynb        # Partie 2 : Régression pour prédiction de hauteur
+├── environment.yml               # Environnement Conda contenant toutes les dépendances nécessaires à l'exécution
 └── README.md                         # Ce fichier
 ```
 
