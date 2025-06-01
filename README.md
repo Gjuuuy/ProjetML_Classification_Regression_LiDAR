@@ -41,11 +41,20 @@ Prédiction de la variable continue **Z (hauteur)** à partir des autres caract�
 ## Données
 
 ### Source des données
-Les données proviennent du **NEON (National Ecological Observatory Network)** :
-- **Dataset** : Discrete return LiDAR point cloud (DP1.30003.001)
-- **Format** : Fichier .laz (LAS compressé)
-- **Volume** : Plus de 16 millions de points LiDAR initialement
-- **Échantillonnage** : 1% des données soit ~165 000 observations pour l'entraînement
+Les données utilisées proviennent du **NEON (National Ecological Observatory Network)**.  
+Voici les détails :
+- **Dataset** : *Discrete return LiDAR point cloud* (**DP1.30003.001**)  
+- **Site web** : [https://data.neonscience.org/data-products/DP1.30003.001](https://data.neonscience.org/data-products/DP1.30003.001)  
+- **Site et période de collecte (Site and Data Range)** : 1 site (**OSBS**) – **Mai 2023 - Mai 2023**  
+- **Échantillon sélectionné** : Trouvé via la barre de recherche avec le mot-clé  
+  `NEON_D03_OSBS_DP1_401000_3277000_classified_point_cloud_colorized`  
+- **Données exclues (Excluded)** :  
+  - Données **provisionnelles** (*provisional data*, non validées)  
+  - Documentation associée (*documentation*)  
+- **Format** : Fichier `.laz` (*compressed LAS format*)  
+- **Volume total** : Plus de **16 millions de points LiDAR**  
+- **Échantillonnage retenu** : 1% (~165 000 points) pour l'entraînement
+
 
 ### Variables utilisées
 
@@ -195,6 +204,12 @@ conda activate lidar_analysis
 **Binôme :**
 - **Abdoulaye SAKO**
 - **Mathias LE BAYON**
+
+**Données fournies par :**  
+**NEON (National Ecological Observatory Network)**  
+*Discrete return LiDAR point cloud* (**DP1.30003.001**), données validées.  
+**Accès** : [https://data.neonscience.org/data-products/DP1.30003.001](https://data.neonscience.org/data-products/DP1.30003.001)  
+**Consulté le** : 29 avril 2025.
 
 ---
 
