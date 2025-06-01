@@ -1,0 +1,22 @@
+name: lidar_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - scikit-learn
+  - scipy
+  - xgboost
+  - lightgbm
+  - laspy
+  - tqdm
+  - joblib
+  - pip:
+      - boruta
